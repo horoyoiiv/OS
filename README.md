@@ -1,5 +1,7 @@
 # OS
-OS
+
+
+[CS140: OS(Spring2014)](https://web.stanford.edu/~ouster/cgi-bin/cs140-spring14/lectures.php)  
 
 ## Multi-threading  
   * 쓰레드 동기화 기법들  
