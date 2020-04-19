@@ -1,5 +1,6 @@
 # OS
 
+[ultimate notes](https://ajayardeshana.wordpress.com/operating-system/)  
 
 [CS140: OS(Spring2014)](https://web.stanford.edu/~ouster/cgi-bin/cs140-spring14/lectures.php)  
 
