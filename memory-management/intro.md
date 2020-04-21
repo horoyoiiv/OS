@@ -67,6 +67,10 @@ search time이 길다.
 
 3.4. Next-fit : first-fit과 유사하나, 마지막 탐색 지점에서 first-fit을 진행한다.  
 
+3.5. Coalescing hole : 인접한 free partition을 합친다.  
+
+3.6. Compaction : 주기적으로 한 곳으로 모아서, 외부 단편을 없앤다.  
+
 
 
 
