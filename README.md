@@ -5,6 +5,28 @@
 [CS140: OS(Spring2014)](https://web.stanford.edu/~ouster/cgi-bin/cs140-spring14/lectures.php)  
 [good](https://jhnyang.tistory.com/category/%EB%B3%84%EA%B1%B8%EB%8B%A4%ED%95%98%EB%8A%94%20IT/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20OS)  
 
+# 1. Virtualization(가상화)  
+
+
+
+## Memory Management  
+
+ * 메모리를 가상화하였을 때, (가상 주소 공간) 이를 물리 메모리에 어떻게 매핑시키는지가 관건  
+ 
+#### 1. 프로세스의 가상 주소 공간을 "연속되게" 할당한다면?  
+[Contiguous memory allocation](/memory-management/intro.md)  
+
+
+#### 2. 가상 주소 공간을 비연속적으로 할당하는게 더 낫다.  
+[세그먼테이션 그리고 페이징](/memory-management/discon.md)  
+
+#### 3. 메모리 가상화의 이점  
+
+1. 실제 물리 주소공간의 크기보다 더 많은 메모리를 사용할 수 있다. (Demand paging)  
+2. Virtual address를 Phsical address로 변환하는 과정에서 MMU가 유효한 범위를 확인하여 다른 프로세스에 대한 접근을 보호  
+
+
+
 
 
 
