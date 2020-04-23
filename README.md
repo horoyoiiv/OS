@@ -4,8 +4,13 @@
 
 [CS140: OS(Spring2014)](https://web.stanford.edu/~ouster/cgi-bin/cs140-spring14/lectures.php)  
 [good](https://jhnyang.tistory.com/category/%EB%B3%84%EA%B1%B8%EB%8B%A4%ED%95%98%EB%8A%94%20IT/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%20OS)  
+# 1. Process  
 
-# 1. Virtualization(가상화)  
+#### 1. 프로세스의 PCB, 상태, fork, exec, wait  
+[Process](/process/process.md)  
+
+
+# 2. Virtualization(가상화)  
 
 
 
