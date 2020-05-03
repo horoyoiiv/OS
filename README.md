@@ -9,6 +9,12 @@
 #### 1. 프로세스의 PCB, 상태, fork, exec, wait  
 [Process](/process/process.md)  
 
+#### 2. 두 가지의 interrupt : System call && H/W Interrupt  
+[Sys and Inter](/process/syscall-interrupt.md)  
+
+#### 3. Scheduling  
+
+#### 4. Context Switching  
 
 # 2. Virtualization(가상화)  
 
