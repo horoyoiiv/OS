@@ -13,8 +13,14 @@
 [Sys and Inter](/process/syscall-interrupt.md)  
 
 #### 3. Scheduling  
+[Scheduling policy](/process/schedule.md)  
 
 #### 4. Context Switching  
+* 현재 CPU를 점유하는 프로세스를 다음으로 스케쥴링 될 프로세스로 바꿀 때 발생하는 과정으로서,  
+현재 프로세스의 (문자 그대로의)상태, CPU의 레지스터 값 - MMU의 PTBR - PC 레지스터 등을  
+**하나의 snapshot**으로서, 커널 메모리의 PCB에 저장한후, 다음 프로세스의 PCB에서 실행에 필요한 상태를 load하는... 일련의 과정.  
+* 문맥 전환으로 인해 초래되는 **TLB MISS** 역시 오버헤드로 볼 수 있다.  
+* ARM 아키책쳐의 경우 이러한 오버헤드를 최소화하기 위하여 여러개의 레지스터셋을 배치하여 문맥 전환 시 포인터만 변경하는 전략.  
 
 # 2. Virtualization(가상화)  
 
