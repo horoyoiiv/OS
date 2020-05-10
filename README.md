@@ -72,7 +72,19 @@ Virtual address를 Phsical address로 변환하는 과정에서 MMU가 유효한
 [1. ULT vs KLT](/thread.md)  
 
 #### 2. 상호배제를 위한 lock 구현 기법  
->>
+[2 완성!](/process/atomic.md)  
+* 1. **스핀락**  
+1.1. **test-and-set** 사용 : 메모리 공간에 new value 삽입 후 old 리턴  
+1.2. **compare-and-swap** 사용 : 메모리 공간의 값이 **old == expected인 경우에만 new value 삽입**하고 old 리턴  
+1.3. **fetch-and-add** 사용 : 메모리 공간의 값을 +1 증가시키는 연산. ticket 과 turn  
+
+* 2. OS의 도움 - 스핀락은 CPU 낭비 심함.
+2.1. yield  - cpu 양도  
+2.2. park, unpark, setpark : 락 획득 실패 시 잠재우며, 큐에서 대기.   
+2.3. futex : linux 버전의 park  
+
+
+
 [test-and-set & compare-and-swap](/lock구현.md)  
 
 
