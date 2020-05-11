@@ -84,7 +84,6 @@ Virtual address를 Phsical address로 변환하는 과정에서 MMU가 유효한
 2.3. futex : linux 버전의 park  
 
 
-
 [test-and-set & compare-and-swap](/lock구현.md)  
 
 
@@ -110,5 +109,10 @@ Virtual address를 Phsical address로 변환하는 과정에서 MMU가 유효한
   * mutex lock과 Condition variable이 같이 사용되면 그 결과가 monitor다.  
   [Ref](https://web.stanford.edu/~ouster/cgi-bin/cs140-spring14/lecture.php?topic=locks)  
 #### 4. Semaphore  
+
+
+## DeadLock  
+[데드락이란](/multi-thread/deadlock.md)  
+
 
 
