@@ -115,4 +115,8 @@ Virtual address를 Phsical address로 변환하는 과정에서 MMU가 유효한
 [데드락이란](/multi-thread/deadlock.md)  
 
 
+## Durability  
+[1. 파일 디스크립터 , 아이노드](/process/fd.md)  
+
+
 
